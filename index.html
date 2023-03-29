@@ -11,7 +11,7 @@
   <header>
     <h1>HTML Demo</h1>
     <nav>
-      <a href="#headings">Headings</a> | <a href=""></a>
+      <a href="#headings">Headings</a> | <a href="#forms">Forms</a>
     </nav>
   </header>
   
@@ -31,12 +31,55 @@
       <h5>This is h5</h5>
       <h6>This is h6</h6>
     </section>
+
+    <section id="forms" >
+      <form>
+        <h2>Example Form</h2>
+        <fieldset>
+          <legend>Pizza Toppings</legend>
+          <p>This is the first section of our form. This represents instructions.</p>
+          
+          <input type="checkbox" name="topping" id="ham">
+          <label for="ham">Sausage</label> <br />
+
+          <input type="checkbox" name="topping" id="pepperoni">
+          <label for="pepperoni">Pepperoni</label> <br />
+
+          <input type="checkbox" name="topping" id="mushrooms">
+          <label for="mushrooms">Mushroooms</label> <br />
+
+          <input type="checkbox" name="topping" id="olives">
+          <label for="olives">Olives</label> 
+        </fieldset>
+
+        <fieldset>
+          <legend>Pickup or Delivery</legend>
+
+          <input type="radio" name="pickup" id="delivery">
+          <label for="delivery">Delivery</label> <br />
+
+          <input type="radio" name="pickup" id="pickup">
+          <label for="pickup">Pickup</label> 
+        </fieldset>
+
+        <fieldset>
+          <legend>Current City</legend>
+          <select name="dropdown" id="city" title="city">
+            <option value="1">Atlanta - Midtown</option>
+            <option value="2">Atlanta - Buckhead</option>
+            <option value="3">Atlanta - Peachtree City</option>
+            <option value="4">Marietta</option>
+            <option value="5">Roswell</option>
+          </select>
+        </fieldset>
+      </form>
+    </section>
   </main>
 
   <footer>
     This is where you have things like contact info, more navigation, legal information, etc.
     <nav>
-      <a href="#headings">Headings</a> | <a href=""></a>
+      <a href="#headings">Headings</a> | <a href="#forms">Forms</a>
     </nav>
   </footer>
 </body>
