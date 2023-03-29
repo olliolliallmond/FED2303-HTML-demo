@@ -22,6 +22,28 @@
       eligendi natus quam eum quia molestiae deserunt dolore ad omnis, 
       impedit nesciunt atque sit magni. Alias, reprehenderit quae?
     </p>
+
+    <section id="lists">
+      <p>The most common list you will us is an unordered list. There is also an ordered list and an obsure 3rd list type I update this later to reflect.</p>
+
+      <nav>
+        <ul>
+          <li><a href="#headings">Headings</a></li>
+          <li><a href="#forms">Forms</a></li>
+          <li><a href="#buttons">Buttons</a></li>
+          <li><a href="https://www.google.com/" target="_blank">Google</a></li>
+        </ul>
+      </nav>
+
+      <p>this is an example of an ordered list</p>
+      <ol>
+        <li>Apple</li>
+        <li>Bananas</li>
+        <li>Kiwi</li>
+        <li>Watermelon</li>
+      </ol>
+    </section>
+
     <section id="headings" >
       Let's look at the different heading elements, h1 - h6 
       <h1>This is h1</h1>
@@ -84,31 +106,31 @@
           <br>
           <label for="input-email">Email Input</label>
           <br>
-          <input type="email" name="input-email" id="input-email">
+          <input type="email" name="input-email" id="input-email" required>
 
           <br>
           <br>
-          <label for=""></label>
+          <label for="date">Date</label>
           <br>
-          <input type="date" name="" id="">
+          <input type="date" name="date" id="date">
 
           <br>
           <br>
-          <label for=""></label>
+          <label for="number">Numbers</label>
           <br>
-          <input type="number" name="" id="">
+          <input type="number" name="number" id="number" min="0" max="10">
 
           <br>
           <br>
-          <label for=""></label>
+          <label for="password">Password</label>
           <br>
-          <input type="password" id="">
+          <input type="password" id="password" minlength="8">
 
           <br>
           <br>
-          <label for=""></label>
+          <label for="range">Range</label>
           <br>
-          <input type="range" name="" id="">
+          <input type="range" name="range" id="range" min="0" max="5">
         </fieldset>
         <!-- Buttons to submit form -->
         <button type="reset">Reset</button>
@@ -124,6 +146,10 @@
         <button disabled="disabled">Disabled</button>
         <button type="reset">Reset</button>
         <button type="submit">Submit</button>
+      </div>
+      <div>
+        <h3>Input buttons</h3>
+        <input type="button" value="input btn">
       </div>
     </section>
   </main>
